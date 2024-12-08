@@ -39,7 +39,6 @@ public class Practice {
         scanner.close();
     }
 
-    // добавьте модификаторы в заголовок метода
     public static void isRecycled(int code) {
         for (RecyclableMaterial material : materials) {
             if (material.getCode() == code) {
@@ -55,7 +54,6 @@ public class Practice {
         System.out.println("Материал с таким кодом не найден.");
     }
 
-    // добавьте модификаторы в заголовок метода
     public static Map<MaterialType, String> getContainers() {
         Map<MaterialType, String> containers = new HashMap<>();
         containers.put(MaterialType.PLASTIC, "Пластик");
